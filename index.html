@@ -3,41 +3,210 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Bags Website</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+			integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 	</head>
 	<body>
-		<h1>Hi guys</h1>
-		<div>
-			<h1>Lorem</h1>
-			<p>Lorem20</p>
-		</div>
-		<div>
-			<h1>Lorem</h1>
-			<p>Lorem20</p>
-		</div>
-		<div>
-			<h1>Lorem</h1>
-			<p>Lorem20</p>
-		</div>
-		<div>
-			<h1>Lorem</h1>
-			<p>Lorem20</p>
-		</div>
-		<div>
-			<h1>Lorem</h1>
-			<p>Lorem20</p>
-		</div>
-		<div>
-			<h1>Lorem</h1>
-			<p>Lorem20</p>
-		</div>
-		<div>
-			<h1>Lorem</h1>
-			<p>Lorem20</p>
-		</div>
-		<div>
-			<h1>Lorem</h1>
-			<p>Lorem20</p>
-		</div>
+		<header class="bg-gray-100 h-[90vh]">
+			<nav
+				class="flex justify-between items-center px-4 lg:px-[200px] py-4 bg-white shadow-lg"
+			>
+				<div id="logo" class="flex items-center">
+					<div class="w-[70px]">
+						<img
+							class="w-full"
+							src="https://static.vecteezy.com/system/resources/previews/007/636/978/non_2x/shopping-bag-logo-icon-design-template-free-vector.jpg"
+							alt=""
+						/>
+					</div>
+					<h2 class="text-2xl font-normal">Handmade bags</h2>
+				</div>
+
+				<ul id="nav-links" class="gap-8 hidden lg:flex">
+					<li><a class="text-lg" href="#">Home</a></li>
+					<li><a class="text-lg" href="#">New</a></li>
+					<li><a class="text-lg" href="./pages/bags.html">Bags</a></li>
+					<li><a class="text-lg" href="#">Backpacks</a></li>
+					<li><a class="text-lg" href="#">Cosmetic Bags</a></li>
+					<li><a class="text-lg" href="#">About Us</a></li>
+					<li><a class="text-lg" href="#">Contact</a></li>
+				</ul>
+				<div id="shopping-cart" class="flex">
+					<div class="lg:hidden">
+						<i class="fa-solid fa-bars text-3xl mr-5"></i>
+					</div>
+					<i class="fa-solid fa-cart-shopping text-3xl"></i>
+				</div>
+			</nav>
+			<section
+				class="flex items-center pl-6 lg:pl-[200px] h-full bg-center bg-cover bg-[url(https://otlgdi.yourbrand.studio/files/dynamicContent/sites/otlgdi/images/en/webpage_14/m67nq6gj/element_150/1/rwdMode_1/1200x513/bags001.jpg)]"
+			>
+				<div class="lg:w-[30%] w-[50%]">
+					<h1 class="text-7xl font-semibold mb-8">New collection</h1>
+					<p class="mb-8">
+						The highest quality products, sewn in Ireland from Irish materials.
+						Quality and durability for years.
+					</p>
+					<button class="bg-green-700 px-10 py-3 text-white mt-6">
+						New Collection
+					</button>
+				</div>
+			</section>
+		</header>
+		<main>
+			<section class="mt-[200px]">
+				<div class="w-[80%] grid grid-cols-4 gap-8 mx-auto">
+					<div class="text-center">
+						<div class="overflow-hidden">
+							<img
+								class="w-full hover:scale-125"
+								src="https://otlgdi.yourbrand.studio/files/dynamicContent/sites/otlgdi/images/en/productpage_8/m67nq7k7/element_209/rwdMode_1/340x340/BAGS008.webp"
+								alt=""
+							/>
+						</div>
+						<h4 class="text-2xl font-semibold my-3">Backpack sandra</h4>
+						<p>80 USD</p>
+					</div>
+					<div class="text-center">
+						<div>
+							<img
+								class="w-full"
+								src="https://otlgdi.yourbrand.studio/files/dynamicContent/sites/otlgdi/images/en/productpage_8/m67nq7k7/element_209/rwdMode_1/340x340/BAGS008.webp"
+								alt=""
+							/>
+						</div>
+						<h4 class="text-2xl font-semibold my-3">Backpack sandra</h4>
+						<p>80 USD</p>
+					</div>
+					<div class="text-center">
+						<div>
+							<img
+								class="w-full"
+								src="https://otlgdi.yourbrand.studio/files/dynamicContent/sites/otlgdi/images/en/productpage_8/m67nq7k7/element_209/rwdMode_1/340x340/BAGS008.webp"
+								alt=""
+							/>
+						</div>
+						<h4 class="text-2xl font-semibold my-3">Backpack sandra</h4>
+						<p>80 USD</p>
+					</div>
+					<div class="text-center">
+						<div>
+							<img
+								class="w-full"
+								src="https://otlgdi.yourbrand.studio/files/dynamicContent/sites/otlgdi/images/en/productpage_8/m67nq7k7/element_209/rwdMode_1/340x340/BAGS008.webp"
+								alt=""
+							/>
+						</div>
+						<h4 class="text-2xl font-semibold my-3">Backpack sandra</h4>
+						<p>80 USD</p>
+					</div>
+					<div class="text-center">
+						<div>
+							<img
+								class="w-full"
+								src="https://otlgdi.yourbrand.studio/files/dynamicContent/sites/otlgdi/images/en/productpage_8/m67nq7k7/element_209/rwdMode_1/340x340/BAGS008.webp"
+								alt=""
+							/>
+						</div>
+						<h4 class="text-2xl font-semibold my-3">Backpack sandra</h4>
+						<p>80 USD</p>
+					</div>
+					<div class="text-center">
+						<div>
+							<img
+								class="w-full"
+								src="https://otlgdi.yourbrand.studio/files/dynamicContent/sites/otlgdi/images/en/productpage_8/m67nq7k7/element_209/rwdMode_1/340x340/BAGS008.webp"
+								alt=""
+							/>
+						</div>
+						<h4 class="text-2xl font-semibold my-3">Backpack sandra</h4>
+						<p>80 USD</p>
+					</div>
+					<div class="text-center">
+						<div>
+							<img
+								class="w-full"
+								src="https://otlgdi.yourbrand.studio/files/dynamicContent/sites/otlgdi/images/en/productpage_8/m67nq7k7/element_209/rwdMode_1/340x340/BAGS008.webp"
+								alt=""
+							/>
+						</div>
+						<h4 class="text-2xl font-semibold my-3">Backpack sandra</h4>
+						<p>80 USD</p>
+					</div>
+					<div class="text-center">
+						<div>
+							<img
+								class="w-full"
+								src="https://otlgdi.yourbrand.studio/files/dynamicContent/sites/otlgdi/images/en/productpage_8/m67nq7k7/element_209/rwdMode_1/340x340/BAGS008.webp"
+								alt=""
+							/>
+						</div>
+						<h4 class="text-2xl font-semibold my-3">Backpack sandra</h4>
+						<p>80 USD</p>
+					</div>
+					<div class="text-center">
+						<div>
+							<img
+								class="w-full"
+								src="https://otlgdi.yourbrand.studio/files/dynamicContent/sites/otlgdi/images/en/productpage_8/m67nq7k7/element_209/rwdMode_1/340x340/BAGS008.webp"
+								alt=""
+							/>
+						</div>
+						<h4 class="text-2xl font-semibold my-3">Backpack sandra</h4>
+						<p>80 USD</p>
+					</div>
+					<div class="text-center">
+						<div>
+							<img
+								class="w-full"
+								src="https://otlgdi.yourbrand.studio/files/dynamicContent/sites/otlgdi/images/en/productpage_8/m67nq7k7/element_209/rwdMode_1/340x340/BAGS008.webp"
+								alt=""
+							/>
+						</div>
+						<h4 class="text-2xl font-semibold my-3">Backpack sandra</h4>
+						<p>80 USD</p>
+					</div>
+					<div class="text-center">
+						<div>
+							<img
+								class="w-full"
+								src="https://otlgdi.yourbrand.studio/files/dynamicContent/sites/otlgdi/images/en/productpage_8/m67nq7k7/element_209/rwdMode_1/340x340/BAGS008.webp"
+								alt=""
+							/>
+						</div>
+						<h4 class="text-2xl font-semibold my-3">Backpack sandra</h4>
+						<p>80 USD</p>
+					</div>
+					<div class="text-center">
+						<div>
+							<img
+								class="w-full"
+								src="https://otlgdi.yourbrand.studio/files/dynamicContent/sites/otlgdi/images/en/productpage_8/m67nq7k7/element_209/rwdMode_1/340x340/BAGS008.webp"
+								alt=""
+							/>
+						</div>
+						<h4 class="text-2xl font-semibold my-3">Backpack sandra</h4>
+						<p>80 USD</p>
+					</div>
+				</div>
+			</section>
+			<section></section>
+		</main>
+		<footer>
+			<div></div>
+			<ul>
+				<li><a href=""></a></li>
+				<li><a href=""></a></li>
+				<li><a href=""></a></li>
+				<li><a href=""></a></li>
+			</ul>
+		</footer>
 	</body>
 </html>
